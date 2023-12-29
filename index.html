@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Satsh Kumar</title>
+    <script src="https://kit.fontawesome.com/cb91b67637.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="image/VARIABLE.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <div class="logo">
+            <img src="image/VARIABLE.png" alt="">
+        </div>
+        <ul id="menu" onclick="closemenu()">
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#project">Projects</a></li>
+        </ul>
+        <button><a href="image/resumeATS.docx">Resume</a></button>
+        <button id="bar" onclick="openmenu()"><i class="fa-solid fa-bars"></i></button>
+    </nav>
+    <div class="home">
+        <div class="container">
+            <div class="left">
+                <h1>Hi I'm Satish </h1>
+                <p>Front-End Developer</p>
+                <pre>As a passionate Front-End developer I thrive <br> on creating beautiful web design that delight <br> users.</pre>
+                <button onclick="hire()">Hire Me</button>
+            </div>
+            <div class="right">
+                <div class="blob">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="skills" id="skills">
+        <div class="skill">
+            <img src="image/programming.png" alt="">
+            <h2>CODING</h2>
+
+            <li>C++ : Good command in C++ with Object Oriented Progming concept. Basic Knowledge of DSA with C++ STL. I
+                have completed certification in C++ from Cybrom Technology Private Limited Bhopal.</li>
+            <li>Python: Good knowledge of core python.</li>
+
+        </div>
+        <div class="skill">
+            <img src="image/front-end.png" alt="">
+            <h2>FRONT-END</h2>
+
+            <li>I have good knowledge of frontend development with responsive design. These are some of the technologies that i
+                use.</li>
+            <ul style="display: flex; justify-content: space-around;">
+                <li style="list-style: circle;">HTML</li>
+                <li style="list-style: circle;">CSS</li>
+                <li style="list-style: circle;">Tailwind CSS</li>
+            </ul>
+            <ul style="display: flex; justify-content: space-around;">
+            <li style="list-style: circle;">Javascript</li>
+            <li style="list-style: circle;">Bootstrap</li>
+            <li style="list-style: circle;">ReactJs</li>
+            </ul>
+
+        </div>
+        <div class="skill">
+            <img src="image/cloud-computing.png" alt="">
+            <h2>CLOUD COMPUTING</h2>
+
+            <li>AWS : I am able to handle some of the essential point in AWS, like IAM (Identity Access Management), S3
+                (Simple Storage Service) bucket, EC2 (Elastic Compute Cloud), and Route53.</li>
+
+                <li>In Database I have good knowledge of MySQL.</li>
+
+        </div>
+    </div>
+    <div class="project" id="project">
+        <h1>Projects</h1>
+        <div class="pr1" id="pr1">
+            <div class="left">
+                <b>01</b> <h1>AI Image Generator</h1>
+                <p>It is a frontend design of AI image generator that show how an user can change their thought into image in few second by the help of AI.</p>
+                <pre>Stack: HTML   CSS   Javascript   AOS</pre>
+                <button onclick="project1()">Visit</button> <a href="https://github.com/Satish1097/Codsoft1">GitHub</a>
+            </div>
+            <div class="right">
+                <img src="image/Screenshot (44).png" alt="">
+            </div>
+        </div>
+        <div class="pr1" id="pr2">
+            <div class="left">
+                <img src="image/Screenshot (43).png" alt="">
+            </div>
+            <div class="right">
+                <b>02</b> <h1>Amazon E-commerce</h1>
+                <p>It is a frontend design of an Amazon e-commerce website, with all the same functionality as the Amazon platform.</p>
+                <pre>Stack: HTML   CSS   Javascript  </pre>
+                <button onclick="project2()">Visit</button> <a href="https://github.com/Satish1097/Amazon-clone">GitHub</a>
+            </div>
+        </div>
+        <div class="pr1" id="pr3">
+            <div class="left">
+                <b>03</b> <h1>IAF Guardian of the sky</h1>
+                <p>It is a frontend design to pay tribute to the Indian Air Force, featuring interactive features.</p>
+                <pre>Stack: HTML   CSS   Javascript  </pre>
+                <button onclick="project3()">Visit</button> <a href="https://github.com/Satish1097/Air_GuardianoftheSky">GitHub</a>
+            </div>
+            <div class="right">
+                <img src="image/Screenshot (45).png" alt="">
+
+            </div>
+        </div>
+    </div>
+
+
+    <footer>
+      <div class="footer">
+        <div class="socialmedia">
+            <a href=""><i class="fa-brands fa-facebook" id="fb"></i></a>Facebook
+            <a href=""><i class="fa-brands fa-square-instagram" id="in"></i></a>Instagram
+        </div>
+        <div class="socialmedia">
+            <a href="https://github.com/Satish1097"><i class="fa-brands fa-github" id="gt"></i></a>GitHub
+            <a href="https://www.linkedin.com/in/satish-kumar-b28b8b275/"><i class="fa-brands fa-linkedin" id="ln"></i></a>LinkedIn
+        </div>
+        <div class="socialmedia">
+            <a href="https://www.hackerrank.com/dashboard"><i class="fa-brands fa-hackerrank" id="hr"></i></a>Hackerrank
+            <a href=""><i class="fa-brands fa-twitter" id="tw"></i></a>Twitter
+        </div>
+      </div>
+      <div class="copyright">
+        &copy; Copyright Reserved | Design by Satish kumar
+      </div>
+    </footer>
+        <script src="script.js"></script>
+</body>
+
+</html>
